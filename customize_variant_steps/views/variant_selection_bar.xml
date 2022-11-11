@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-
     <template id="variants_step_bar" inherit_id="sale.variants" customize_show="True">
         <xpath expr="//t[@t-foreach='product.valid_product_template_attribute_line_ids']" position="replace">
         <div class="container">
@@ -23,8 +22,10 @@
                             </div>
                         </t>
                     </t>
+                    
                 </div>
             </div>
+            
             <form role="form" action="" method="post">
                 <t t-set="i" t-value="0"/>
                 <t t-foreach="product.valid_product_template_attribute_line_ids" t-as="ptal">
@@ -98,5 +99,6 @@
         </div>
        </xpath>
   </template>
+
 </odoo>
     

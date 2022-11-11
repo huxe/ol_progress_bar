@@ -8,14 +8,23 @@ odoo.define('customize_variant_steps.main_', function (require) {
     var _t = core._t;
 
     
-    console.log("js file loaded")
+    console.log("js file loaded");
+
     
+     
+
+
     var navListItems = $('div.setup-panel div a'),
             allWells = $('.setup-content'),
             allNextBtn = $('.nextBtn');
   
-    allWells.hide();
-  
+
+            allWells.hide();
+
+    
+
+     
+
     navListItems.click(function (e) {
         e.preventDefault();
         var $target = $($(this).attr('href')),
@@ -29,6 +38,11 @@ odoo.define('customize_variant_steps.main_', function (require) {
             $target.find('input:eq(0)').focus();
         }
     });
+
+    
+
+
+
   
     allNextBtn.click(function(){
         var curStep = $(this).closest(".setup-content"),

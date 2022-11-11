@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
-</odoo>
-
-<?xml version="1.0" encoding="utf-8"?>
+<!-- <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="assets"  inherit_id="web.assets_frontend" inherit_id="sale.variants">
         <xpath expr="." position="inside">
@@ -13,4 +10,4 @@
               <link rel="stylesheet" href="/customize_variant_steps/static/src/css/style_variants.css"/>
             </xpath>
     </template>
-</odoo>
+</odoo> -->
